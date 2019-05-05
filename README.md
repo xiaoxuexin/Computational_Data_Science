@@ -32,3 +32,5 @@ In learn2find_insync.jl, we are interested in finding k synchronized waveforms i
 ![](12.png)
 ![](13.png)
 ![](14.png)
+![](15.png)
+![](16.png)
