@@ -15,3 +15,5 @@ learn2completematrix.jl realize an algorithm that learn to complete a matrix wit
 ![](image2.png)
 ![](image3.png)
 We use this method to realize low rank image reconstruction. The other application is finding the missing value in the user score of movies. In this case the matrix is a movies-users matrix where users provide ratings and the missing entries corresponds to movies that have not been rated. Filling in the entries allows for Netflix to recommend movies you might like. See a description in the Netflix Prize and the SVD http://www.ams.org/publicoutreach/feature-column/fcarc-svd.
+![](4.png)
+![](5.png)
