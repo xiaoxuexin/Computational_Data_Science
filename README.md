@@ -17,3 +17,9 @@ learn2completematrix.jl realize an algorithm that learn to complete a matrix wit
 We use this method to realize low rank image reconstruction. The other application is finding the missing value in the user score of movies. In this case the matrix is a movies-users matrix where users provide ratings and the missing entries corresponds to movies that have not been rated. Filling in the entries allows for Netflix to recommend movies you might like. See a description in the Netflix Prize and the SVD http://www.ams.org/publicoutreach/feature-column/fcarc-svd.
 ![](4.png)
 ![](5.png)
+
+In learn2embedding.jl, we first embed a Matrix of Coordinates in a Distance Matrix. From the coordinates matrix X , we can construct a distance matrix  D such that Dij=Dji=d(xi,xj). We can also recover the coordinares matrix from the distance matrix. However, given a Euclidean distance matrix, we cannot uniquely determine the original coordinates. If X is a set of coordinates that gives us a particular D, then we will obtain the same  D from  (X.+μ)Q(X.+μ)Q  for any  μ  and any d×d  orthogonal matrix Q. That the Euclidean distance matrix is the same if we rotate the points is a conseqeuence of the orthogonal/unitary invariance of the Euclidean norm. If we used a non-unitarily invariant norm, we could rotate the points and the distance matrix would change, as we will briefly illustrate using the  ℓ1ℓ1  norm.
+
+![](6.png)
+![](7.png)
+![](8.png)
