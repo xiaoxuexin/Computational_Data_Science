@@ -42,5 +42,12 @@ In the learn2project.jl, we are trying to to unmix images and audio signals usin
 ![](18.png)
 ![](19.png)
 ![](20.png)
+
+In neural_201, we conduct experiements on neural network in classification. We changed the activaion function, number of layers, number of neurons in each layer, and learning step to see whether there is an improvement in the classification accuracy.
+
+In svd_video.jl, we use Singular Vector Decomposition (SVD) to decompose the video matrix in each frame. By doing that, we can seperate the walking people and flashing lights in the video and extract the background. Since in the videl matrix, the walking poeple and randomly flashing lights can be looked as random noise, by doing SVD, we keep the main or stable information, the background, in the remianed matrix. And the random noise was dropped in the rest, the last elements.
+
 ![](21.png)
 ![](22.png)
+![](23.png)
+![](24.png)
