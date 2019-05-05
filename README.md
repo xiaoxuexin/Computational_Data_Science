@@ -27,6 +27,7 @@ In learn2embedding.jl, we first embed a Matrix of Coordinates in a Distance Matr
 
 In learn2find_insync.jl, we are interested in finding k synchronized waveforms in a noisy m×n data matrix. We begin with a representative example of such a waveform x(t; a, b)=exp(−at)⋅sin(bt). We are interested in the problem of finding synchronized waveforms in an  m×n data matrix. In this setup we think of  m  as being the number of sensors and  n as being the number of samples or measurements; thus  X[i,:] represents the vector of time series measurements or samples recorded at sensor  i.
 
+In the learn2detectgraphcommunities.jl, we are interested in discovering community structure in networks.
 ![](10.png)
 ![](11.png)
 ![](12.png)
@@ -34,3 +35,12 @@ In learn2find_insync.jl, we are interested in finding k synchronized waveforms i
 ![](14.png)
 ![](15.png)
 ![](16.png)
+
+In the learn2project.jl, we are trying to to unmix images and audio signals using Independent Component Analysis (ICA)
+
+![](17.png)
+![](18.png)
+![](19.png)
+![](20.png)
+![](21.png)
+![](22.png)
