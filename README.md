@@ -23,3 +23,12 @@ In learn2embedding.jl, we first embed a Matrix of Coordinates in a Distance Matr
 ![](6.png)
 ![](7.png)
 ![](8.png)
+![](9.png)
+
+In learn2find_insync.jl, we are interested in finding k synchronized waveforms in a noisy m×n data matrix. We begin with a representative example of such a waveform x(t; a, b)=exp(−at)⋅sin(bt). We are interested in the problem of finding synchronized waveforms in an  m×n data matrix. In this setup we think of  m  as being the number of sensors and  n as being the number of samples or measurements; thus  X[i,:] represents the vector of time series measurements or samples recorded at sensor  i.
+
+![](10.png)
+![](11.png)
+![](12.png)
+![](13.png)
+![](14.png)
